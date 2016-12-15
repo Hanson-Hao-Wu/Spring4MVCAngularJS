@@ -16,8 +16,8 @@ var app = angular.module('app',[
 ])
 .constant('appConfig', {
 	
-	path: 'http://localhost:8080/Spring4MVCAngularJS/static/resources/'/*,
-	debug: false*/
+	path: 'http://localhost:8080/Spring4MVCAngularJS/static/resources/',
+	debug: true
 
 })
 .config(['$routeProvider', function($routeProvider) {

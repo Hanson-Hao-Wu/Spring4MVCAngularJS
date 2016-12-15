@@ -9,13 +9,13 @@ angular.module('myAccount.login', ['ngRoute'])
 	});
 }])
 
-.controller('loginCtrl', ['$scope', 'loginService', function($scope, loginService) {
+.controller('loginCtrl', ['$scope', 'loginService', 'appConfig', function($scope, loginService, appConfig) {
 
 	$scope.$parent.pageTitle = "Login";
 
 	$scope.membershipNumber = 'member1';
 
-	$scope.debugMode = false;
+	$scope.debugMode = appConfig.debug;
 
 	$scope.login = function(membershipNumber){
 

@@ -1,0 +1,205 @@
+{
+    "AXISWeb": {
+        "ACCR": {
+            "CreditCardCode": "V",
+            "CreditCardExpMonth": "02",
+            "CreditCardExpYear": 19,
+            "CreditCardNum": "XXXX XXXX XXXX 4440"
+        },
+        "Action": {
+            "CashDrawer": "WEB1",
+            "Checksum": 16853,
+            "PosQueueKey": "POSR0209",
+            "Teller": "WEB1",
+            "Transaction": "Inq",
+            "UserUMC": 6202770178215001,
+            "Version": 20090217
+        },
+        "Address": {
+            "Address1": "10 WILLIAM ST",
+            "BusPhoneArea": 902,
+            "BusPhoneExch": 494,
+            "BusPhoneLocal": 6504,
+            "City": "HALIFAX",
+            "HomePhoneArea": 902,
+            "HomePhoneExch": 835,
+            "HomePhoneLocal": 8295,
+            "PostalCode": "B3S 1K6",
+            "Province": "NS"
+        },
+        "Affinity": {
+            "AffinityBalance": 0,
+            "AffinityLine": {
+                "AffinityCredits": "0.00",
+                "AffinityDate": "14 NOV 16",
+                "AffinityDateStd": "2016-11-14",
+                "AffinityPartner": "CIRCLEK-277"
+            }
+        },
+        "Flag": [
+            {
+                "FlagCode": "SV",
+                "FlagDate": "10 DEC 97",
+                "FlagDateStd": "1997-12-10",
+                "FlagDesc": "MEMBERSHIP SALVAGED",
+                "FlagDisplay": "Y",
+                "FlagHousehold": "Y",
+                "FlagUMC": 6202770178215001,
+                "FlagWho": "0178215",
+                "TellerId": "",
+                "TellerName": ""
+            },
+            {
+                "FlagCode": "WEB",
+                "FlagDate": "21 NOV 16",
+                "FlagDateStd": "2016-11-21",
+                "FlagDesc": "WEB SERVICES USER",
+                "FlagDisplay": "Y",
+                "FlagHousehold": "Y",
+                "FlagUMC": 6202770178215001,
+                "FlagWho": "0178215",
+                "TellerId": "WEB1",
+                "TellerName": "WEB TELLER 1"
+            }
+        ],
+        "Membership": {
+            "AutoRenewBalance": 88,
+            "BadAddress": "N",
+            "Balance": "88.00",
+            "ClubMemberSince": "1990-11-01",
+            "ClubNum": 277,
+            "ContactMethods": {
+                "ContactMethod": [
+                    {
+                        "ContactMethodCode": "H",
+                        "ContactMethodDirMkt": "",
+                        "ContactMethodEbill": "",
+                        "ContactMethodExtension": "",
+                        "ContactMethodNote": "",
+                        "ContactMethodPerson": "",
+                        "ContactMethodPreference": 1,
+                        "ContactMethodReference": "902 835-8295",
+                        "ContactMethodType": "P"
+                    },
+                    {
+                        "ContactMethodCode": "B",
+                        "ContactMethodDirMkt": "",
+                        "ContactMethodEbill": "",
+                        "ContactMethodExtension": "",
+                        "ContactMethodNote": "",
+                        "ContactMethodPerson": "",
+                        "ContactMethodPreference": "",
+                        "ContactMethodReference": "902 494-6504",
+                        "ContactMethodType": "P"
+                    }
+                ]
+            },
+            "DiscountTotal": 0,
+            "Ebill": "Y",
+            "EbillEmail": "TEST2761@CAMPANA.COM",
+            "Emails": "TEST2761@CAMPANA.COM mersin@newland.com",
+            "EmailsCode": "E EW",
+            "EmailsPerson": "0 0",
+            "ExpiryDate": "2016-12-15",
+            "GoodStanding": "Y",
+            "HowSold": "H",
+            "IsoNum": 620,
+            "LtvCode": "C",
+            "MemStatus": "A",
+            "MemStatusDesc": "ACTIVE",
+            "MemberSince": 1990,
+            "MembershipNum": "0178215",
+            "OldUMC": 6202770178215001,
+            "OrigBalance": "88.00",
+            "OrigEmails": "TEST2761@CAMPANA.COM mersin@newland.com",
+            "OrigFlags": "SV WEB",
+            "OrigPriCoverage": "B",
+            "PersonEmail": "TEST2761@CAMPANA.COM mersin@newland.com",
+            "PremierEligible": "Y",
+            "Pricing": {
+                "MembershipPricing": {
+                    "BasePrice": 76.52,
+                    "Taxes": {
+                        "Tax": {
+                            "TaxAmount": 11.48,
+                            "TaxCode": "REG"
+                        }
+                    },
+                    "TotalPrice": "88.00"
+                }
+            },
+            "RenewType": "A",
+            "SecondTextExpiryDate": "15 December 2016",
+            "TextExpiryDate": "December 15, 2016"
+        },
+        "Primary": {
+            "ContactMethods": {
+                "ContactMethod": [
+                    {
+                        "ContactMethodCode": "E",
+                        "ContactMethodDirMkt": true,
+                        "ContactMethodEbill": true,
+                        "ContactMethodExtension": "",
+                        "ContactMethodNote": "",
+                        "ContactMethodPerson": "P",
+                        "ContactMethodPreference": "",
+                        "ContactMethodReference": "TEST2761@CAMPANA.COM",
+                        "ContactMethodType": "E"
+                    },
+                    {
+                        "ContactMethodCode": "EW",
+                        "ContactMethodDirMkt": true,
+                        "ContactMethodEbill": true,
+                        "ContactMethodExtension": "",
+                        "ContactMethodNote": "",
+                        "ContactMethodPerson": "P",
+                        "ContactMethodPreference": "",
+                        "ContactMethodReference": "mersin@newland.com",
+                        "ContactMethodType": "E"
+                    }
+                ]
+            },
+            "InqPriEmail": "mersin@newland.com",
+            "PriAmtDue": "88.00",
+            "PriBirthDate": "1947-09-09",
+            "PriBirthDay": "09",
+            "PriBirthMonth": "September",
+            "PriBirthYear": 1947,
+            "PriCoverage": "B",
+            "PriCoverageCode": "B",
+            "PriCoverageDesc": "Basic",
+            "PriDonorFlag": "Y",
+            "PriFirstName": "DARREN",
+            "PriGender": "F",
+            "PriLastName": "SLACK",
+            "PriLoginDataDate": "2016-12-08",
+            "PriNum": "001",
+            "PriRateDesc": "REGULAR",
+            "PriRateType": "R",
+            "PriUMC": 6202770178215001,
+            "PriWhereSold": "1MM",
+            "Pricing": {
+                "PrimaryPricing": {
+                    "BasePrice": 76.52,
+                    "Taxes": {
+                        "Tax": {
+                            "TaxAmount": 11.48,
+                            "TaxCode": "REG"
+                        }
+                    },
+                    "TotalPrice": "88.00"
+                }
+            },
+            "RegPriEmail": "mersin@newland.com",
+            "RoadService": {
+                "AvailableCallCount": 5,
+                "Eligible": "Y",
+                "PermittedCallCount": 5,
+                "UsedCallCount": 0
+            }
+        },
+        "Promo": {
+            "PromoCode": ""
+        }
+    }
+}

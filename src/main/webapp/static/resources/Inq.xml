@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AXISWeb xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AXISWeb.xsd">
+	<Action>
+		<Transaction>Inq</Transaction>
+		<UserUMC>6202770178215001</UserUMC>
+		<Version>20090217</Version>
+		<Checksum>16853</Checksum>
+		<PosQueueKey>POSR0209</PosQueueKey>
+		<Teller>WEB1</Teller>
+		<CashDrawer>WEB1</CashDrawer>
+	</Action>
+	<Membership>
+		<AutoRenewBalance>88</AutoRenewBalance>
+		<BadAddress>N</BadAddress>
+		<Balance>88.00</Balance>
+		<ClubNum>277</ClubNum>
+		<ClubMemberSince>1990-11-01</ClubMemberSince>
+		<DiscountTotal>0</DiscountTotal>
+		<Ebill>Y</Ebill>
+		<EbillEmail>TEST2761@CAMPANA.COM</EbillEmail>
+		<Emails>TEST2761@CAMPANA.COM mersin@newland.com</Emails>
+		<EmailsCode>E EW</EmailsCode>
+		<EmailsPerson>0 0</EmailsPerson>
+		<ExpiryDate>2016-12-15</ExpiryDate>
+		<GoodStanding>Y</GoodStanding>
+		<HowSold>H</HowSold>
+		<IsoNum>620</IsoNum>
+		<LtvCode>C</LtvCode>
+		<MemStatus>A</MemStatus>
+		<MemStatusDesc>ACTIVE</MemStatusDesc>
+		<MemberSince>1990</MemberSince>
+		<MembershipNum>0178215</MembershipNum>
+		<OldUMC>6202770178215001</OldUMC>
+		<OrigBalance>88.00</OrigBalance>
+		<OrigEmails>TEST2761@CAMPANA.COM mersin@newland.com</OrigEmails>
+		<OrigFlags>SV WEB</OrigFlags>
+		<OrigPriCoverage>B</OrigPriCoverage>
+		<PersonEmail>TEST2761@CAMPANA.COM mersin@newland.com</PersonEmail>
+		<PremierEligible>Y</PremierEligible>
+		<RenewType>A</RenewType>
+		<SecondTextExpiryDate>15 December 2016</SecondTextExpiryDate>
+		<TextExpiryDate>December 15, 2016</TextExpiryDate>
+		<Pricing>
+			<MembershipPricing>
+				<TotalPrice>88.00</TotalPrice>
+				<BasePrice>76.52</BasePrice>
+				<Taxes>
+					<Tax>
+						<TaxCode>REG</TaxCode>
+						<TaxAmount>11.48</TaxAmount>
+					</Tax>
+				</Taxes>
+			</MembershipPricing>
+		</Pricing>
+		<ContactMethods>
+			<ContactMethod>
+				<ContactMethodCode>H</ContactMethodCode>
+				<ContactMethodDirMkt/>
+				<ContactMethodEbill/>
+				<ContactMethodExtension/>
+				<ContactMethodNote/>
+				<ContactMethodPerson/>
+				<ContactMethodPreference>1</ContactMethodPreference>
+				<ContactMethodReference>902 835-8295</ContactMethodReference>
+				<ContactMethodType>P</ContactMethodType>
+			</ContactMethod>
+			<ContactMethod>
+				<ContactMethodCode>B</ContactMethodCode>
+				<ContactMethodDirMkt/>
+				<ContactMethodEbill/>
+				<ContactMethodExtension/>
+				<ContactMethodNote/>
+				<ContactMethodPerson/>
+				<ContactMethodPreference/>
+				<ContactMethodReference>902 494-6504</ContactMethodReference>
+				<ContactMethodType>P</ContactMethodType>
+			</ContactMethod>
+		</ContactMethods>
+	</Membership>
+	<Address>
+		<Address1>10 WILLIAM ST</Address1>
+		<City>HALIFAX</City>
+		<Province>NS</Province>
+		<PostalCode>B3S 1K6</PostalCode>
+		<HomePhoneArea>902</HomePhoneArea>
+		<HomePhoneExch>835</HomePhoneExch>
+		<HomePhoneLocal>8295</HomePhoneLocal>
+		<BusPhoneArea>902</BusPhoneArea>
+		<BusPhoneExch>494</BusPhoneExch>
+		<BusPhoneLocal>6504</BusPhoneLocal>
+	</Address>
+	<Affinity>
+		<AffinityBalance>0</AffinityBalance>
+		<AffinityLine>
+			<AffinityPartner>CIRCLEK-277</AffinityPartner>
+			<AffinityDate>14 NOV 16</AffinityDate>
+			<AffinityCredits>0.00</AffinityCredits>
+			<AffinityDateStd>2016-11-14</AffinityDateStd>
+		</AffinityLine>
+	</Affinity>
+	<Primary>
+		<PriUMC>6202770178215001</PriUMC>
+		<PriNum>001</PriNum>
+		<PriCoverage>B</PriCoverage>
+		<PriCoverageCode>B</PriCoverageCode>
+		<PriCoverageDesc>Basic</PriCoverageDesc>
+		<PriFirstName>DARREN</PriFirstName>
+		<PriLastName>SLACK</PriLastName>
+		<PriGender>F</PriGender>
+		<InqPriEmail>mersin@newland.com</InqPriEmail>
+		<RegPriEmail>mersin@newland.com</RegPriEmail>
+		<PriBirthDay>09</PriBirthDay>
+		<PriBirthMonth>September</PriBirthMonth>
+		<PriBirthYear>1947</PriBirthYear>
+		<PriBirthDate>1947-09-09</PriBirthDate>
+		<PriRateType>R</PriRateType>
+		<PriRateDesc>REGULAR</PriRateDesc>
+		<PriAmtDue>88.00</PriAmtDue>
+		<PriLoginDataDate>2016-12-08</PriLoginDataDate>
+		<PriDonorFlag>Y</PriDonorFlag>
+		<Pricing>
+			<PrimaryPricing>
+				<TotalPrice>88.00</TotalPrice>
+				<BasePrice>76.52</BasePrice>
+				<Taxes>
+					<Tax>
+						<TaxCode>REG</TaxCode>
+						<TaxAmount>11.48</TaxAmount>
+					</Tax>
+				</Taxes>
+			</PrimaryPricing>
+		</Pricing>
+		<RoadService>
+			<AvailableCallCount>5</AvailableCallCount>
+			<Eligible>Y</Eligible>
+			<PermittedCallCount>5</PermittedCallCount>
+			<UsedCallCount>0</UsedCallCount>
+		</RoadService>
+		<PriWhereSold>1MM</PriWhereSold>
+		<ContactMethods>
+			<ContactMethod>
+				<ContactMethodCode>E</ContactMethodCode>
+				<ContactMethodDirMkt>Y</ContactMethodDirMkt>
+				<ContactMethodEbill>Y</ContactMethodEbill>
+				<ContactMethodExtension/>
+				<ContactMethodNote/>
+				<ContactMethodPerson>P</ContactMethodPerson>
+				<ContactMethodPreference/>
+				<ContactMethodReference>TEST2761@CAMPANA.COM</ContactMethodReference>
+				<ContactMethodType>E</ContactMethodType>
+			</ContactMethod>
+			<ContactMethod>
+				<ContactMethodCode>EW</ContactMethodCode>
+				<ContactMethodDirMkt/>
+				<ContactMethodEbill/>
+				<ContactMethodExtension/>
+				<ContactMethodNote/>
+				<ContactMethodPerson>P</ContactMethodPerson>
+				<ContactMethodPreference/>
+				<ContactMethodReference>mersin@newland.com</ContactMethodReference>
+				<ContactMethodType>E</ContactMethodType>
+			</ContactMethod>
+		</ContactMethods>
+	</Primary>
+	<Promo>
+		<PromoCode/>
+	</Promo>
+	<Flag>
+		<FlagUMC>6202770178215001</FlagUMC>
+		<FlagWho>0178215</FlagWho>
+		<FlagCode>SV</FlagCode>
+		<FlagDesc>MEMBERSHIP SALVAGED</FlagDesc>
+		<FlagDate>10 DEC 97</FlagDate>
+		<TellerId/>
+		<TellerName/>
+		<FlagDateStd>1997-12-10</FlagDateStd>
+		<FlagDisplay>Y</FlagDisplay>
+		<FlagHousehold>Y</FlagHousehold>
+	</Flag>
+	<Flag>
+		<FlagUMC>6202770178215001</FlagUMC>
+		<FlagWho>0178215</FlagWho>
+		<FlagCode>WEB</FlagCode>
+		<FlagDesc>WEB SERVICES USER</FlagDesc>
+		<FlagDate>21 NOV 16</FlagDate>
+		<TellerId>WEB1</TellerId>
+		<TellerName>WEB TELLER 1</TellerName>
+		<FlagDateStd>2016-11-21</FlagDateStd>
+		<FlagDisplay>Y</FlagDisplay>
+		<FlagHousehold>Y</FlagHousehold>
+	</Flag>
+	<ACCR>
+		<CreditCardNum>XXXX XXXX XXXX 4440</CreditCardNum>
+		<CreditCardCode>V</CreditCardCode>
+		<CreditCardExpMonth>02</CreditCardExpMonth>
+		<CreditCardExpYear>19</CreditCardExpYear>
+	</ACCR>
+</AXISWeb>

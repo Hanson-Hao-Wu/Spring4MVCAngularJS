@@ -1,0 +1,367 @@
+{
+    "AXISWeb": {
+        "ACCR": {
+            "CreditCardCode": "MPPV",
+            "CreditCardExpMonth": 12,
+            "CreditCardExpYear": 20,
+            "CreditCardNum": "XXXX XXXX XXXX 1111"
+        },
+        "Action": {
+            "CashDrawer": "WEB1",
+            "Checksum": 58876,
+            "PosQueueKey": "POSR0237",
+            "Teller": "WEB1",
+            "Transaction": "Inq",
+            "UserUMC": 6202770875728009,
+            "Version": 20090217
+        },
+        "Address": {
+            "Address1": "NEWLAND_TEST",
+            "City": "TORONTO",
+            "HomePhoneArea": 111,
+            "HomePhoneExch": 111,
+            "HomePhoneLocal": 1111,
+            "PostalCode": "A1A 1A1",
+            "Province": "NB"
+        },
+        "Affinity": {
+            "AffinityBalance": 0
+        },
+        "Associate": [
+            {
+                "AssocAmtDue": "0.00",
+                "AssocCode": 1,
+                "AssocCoverage": "B",
+                "AssocCoverageCode": "B",
+                "AssocCoverageDesc": "Basic",
+                "AssocDonorFlag": "N",
+                "AssocFirstName": "AAA",
+                "AssocLastName": "AAA",
+                "AssocNum": "017",
+                "AssocRateDesc": "MONTHLY PAYMENT PLAN",
+                "AssocRateType": "MPP",
+                "AssocSpouse": "N",
+                "AssocUMC": 6202770875728017,
+                "AssocWhereSold": "WEB",
+                "InqAssocEmail": "hao2@gmail.com",
+                "Pricing": {
+                    "AssociatePricing": {
+                        "BasePrice": "0.00",
+                        "Taxes": {
+                            "Tax": {
+                                "TaxAmount": "0.00",
+                                "TaxCode": "REG"
+                            }
+                        },
+                        "TotalPrice": "0.00"
+                    }
+                },
+                "RoadService": {
+                    "AvailableCallCount": 5,
+                    "Eligible": "Y",
+                    "PermittedCallCount": 5,
+                    "UsedCallCount": 0
+                }
+            },
+            {
+                "AssocAmtDue": "0.00",
+                "AssocBirthDate": "1999-09-09",
+                "AssocBirthDay": "09",
+                "AssocBirthMonth": "September",
+                "AssocBirthYear": 1999,
+                "AssocCode": 2,
+                "AssocCoverage": "B",
+                "AssocCoverageCode": "B",
+                "AssocCoverageDesc": "Basic",
+                "AssocDonorFlag": "N",
+                "AssocFirstName": "BBB",
+                "AssocLastName": "BBB",
+                "AssocNum": "025",
+                "AssocRateDesc": "MONTHLY PAYMENT PLAN",
+                "AssocRateType": "MPP",
+                "AssocSpouse": "N",
+                "AssocUMC": 6202770875728025,
+                "AssocWhereSold": "WEB",
+                "ContactMethods": {
+                    "ContactMethod": {
+                        "ContactMethodCode": "E",
+                        "ContactMethodDirMkt": "",
+                        "ContactMethodEbill": "",
+                        "ContactMethodExtension": "",
+                        "ContactMethodNote": "",
+                        "ContactMethodPerson": "A2",
+                        "ContactMethodPreference": "",
+                        "ContactMethodReference": "hao2@gmail.com",
+                        "ContactMethodType": "E"
+                    }
+                },
+                "InqAssocEmail": "hao2@gmail.com",
+                "Pricing": {
+                    "AssociatePricing": {
+                        "BasePrice": "0.00",
+                        "Taxes": {
+                            "Tax": {
+                                "TaxAmount": "0.00",
+                                "TaxCode": "ZERO"
+                            }
+                        },
+                        "TotalPrice": "0.00"
+                    }
+                },
+                "RoadService": {
+                    "AvailableCallCount": 5,
+                    "Eligible": "Y",
+                    "PermittedCallCount": 5,
+                    "UsedCallCount": 0
+                }
+            }
+        ],
+        "Flag": [
+            {
+                "FlagCode": "WEB",
+                "FlagDate": "26 OCT 16",
+                "FlagDateStd": "2016-10-26",
+                "FlagDesc": "WEB SERVICES USER",
+                "FlagDisplay": "Y",
+                "FlagHousehold": "Y",
+                "FlagUMC": 6202770875728009,
+                "FlagWho": "0875728",
+                "TellerId": "WEB1",
+                "TellerName": "WEB TELLER 1"
+            },
+            {
+                "FlagCode": "BE",
+                "FlagDate": "26 OCT 16",
+                "FlagDateStd": "2016-10-26",
+                "FlagDesc": "BLOCK MASS E-MAILINGS",
+                "FlagDisplay": "Y",
+                "FlagHousehold": "N",
+                "FlagUMC": 6202770875728009,
+                "FlagWho": "0875728",
+                "TellerId": "WEB",
+                "TellerName": "WEB TRAVEL"
+            }
+        ],
+        "MPP": {
+            "MonthlyPayments": {
+                "MonthlyPayment": [
+                    {
+                        "Amount": "5.10",
+                        "Date": "2017-01-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-02-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-03-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-04-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-05-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-06-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-07-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-08-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-09-01"
+                    },
+                    {
+                        "Amount": 5.02,
+                        "Date": "2017-10-01"
+                    }
+                ]
+            }
+        },
+        "Membership": {
+            "AssocOnlyBasic": "",
+            "AutoRenewBalance": 0,
+            "BadAddress": "N",
+            "Balance": "0.00",
+            "ClubMemberSince": "2016-10-24",
+            "ClubNum": 277,
+            "ContactMethods": {
+                "ContactMethod": {
+                    "ContactMethodCode": "H",
+                    "ContactMethodDirMkt": "",
+                    "ContactMethodEbill": "",
+                    "ContactMethodExtension": "",
+                    "ContactMethodNote": "",
+                    "ContactMethodPerson": "",
+                    "ContactMethodPreference": "",
+                    "ContactMethodReference": "111 111-1111",
+                    "ContactMethodType": "P"
+                }
+            },
+            "DiscountTotal": 0,
+            "Ebill": "Y",
+            "EbillEmail": "hao@newland.com",
+            "Emails": "hao@newland.com hao@newland.com hao2@gmail.com",
+            "EmailsCode": "EW E E",
+            "EmailsPerson": "0 0 2",
+            "ExpiryDate": "2017-10-31",
+            "GoodStanding": "Y",
+            "HowSold": 999999,
+            "IsoNum": 620,
+            "MemStatus": "A",
+            "MemStatusDesc": "ACTIVE",
+            "MemberSince": 2016,
+            "MembershipNum": "0875728",
+            "OldUMC": 6202770875728009,
+            "OrigAssocCoverage": "B B",
+            "OrigBalance": "0.00",
+            "OrigEmails": "hao@newland.com hao@newland.com hao2@gmail.com",
+            "OrigFlags": "WEB BE",
+            "OrigPriCoverage": "B",
+            "PersonEmail": "hao@newland.com hao@newland.com",
+            "PremierEligible": "Y",
+            "Pricing": {
+                "MembershipPricing": {
+                    "BasePrice": "10.00",
+                    "Discounts": {
+                        "Discount": {
+                            "DiscountAmount": "-8.70",
+                            "DiscountCode": "AR"
+                        }
+                    },
+                    "MiscCharges": {
+                        "MiscCharge": [
+                            {
+                                "MiscChargeAmount": "0.00",
+                                "MiscChargeCode": "MPPS"
+                            },
+                            {
+                                "MiscChargeAmount": "0.00",
+                                "MiscChargeCode": "EF"
+                            }
+                        ]
+                    },
+                    "Taxes": {
+                        "Tax": [
+                            {
+                                "TaxAmount": "0.00",
+                                "TaxCode": "REG"
+                            },
+                            {
+                                "TaxAmount": "0.00",
+                                "TaxCode": "ZERO"
+                            }
+                        ]
+                    },
+                    "TotalPrice": "0.00"
+                }
+            },
+            "RenewType": "A",
+            "SecondTextExpiryDate": "31 October 2017",
+            "TextExpiryDate": "October 31, 2017"
+        },
+        "Primary": {
+            "ContactMethods": {
+                "ContactMethod": [
+                    {
+                        "ContactMethodCode": "EW",
+                        "ContactMethodDirMkt": false,
+                        "ContactMethodEbill": true,
+                        "ContactMethodExtension": "",
+                        "ContactMethodNote": "",
+                        "ContactMethodPerson": "P",
+                        "ContactMethodPreference": "",
+                        "ContactMethodReference": "hao@newland.com",
+                        "ContactMethodType": "E"
+                    },
+                    {
+                        "ContactMethodCode": "E",
+                        "ContactMethodDirMkt": false,
+                        "ContactMethodEbill": false,
+                        "ContactMethodExtension": "",
+                        "ContactMethodNote": "",
+                        "ContactMethodPerson": "P",
+                        "ContactMethodPreference": "",
+                        "ContactMethodReference": "hao@newland.com",
+                        "ContactMethodType": "E"
+                    }
+                ]
+            },
+            "InqPriEmail": "hao@newland.com",
+            "PAICovCodes": {
+                "PAICovCode": {
+                    "Beneficiaries": {
+                        "Beneficiary": {
+                            "EffDate": "2016-10-27",
+                            "FirstName": "aaa",
+                            "LastName": "aaa",
+                            "Percentage": 100,
+                            "Relationship": "aaa"
+                        }
+                    },
+                    "CovCode": "PAI-F25",
+                    "PolicyEffDate": "2016-10-27"
+                }
+            },
+            "PriAmtDue": "0.00",
+            "PriCoverage": "B",
+            "PriCoverageCode": "B",
+            "PriCoverageDesc": "Basic",
+            "PriDonorFlag": "N",
+            "PriFirstName": "HAO_1026",
+            "PriLastName": "WU_",
+            "PriLoginDataDate": "2016-12-08",
+            "PriNum": "009",
+            "PriRateDesc": "MONTHLY PAYMENT PLAN",
+            "PriRateType": "MPP",
+            "PriUMC": 6202770875728009,
+            "PriWhereSold": "WEB",
+            "Pricing": {
+                "PrimaryPricing": {
+                    "BasePrice": "10.00",
+                    "Discounts": {
+                        "Discount": {
+                            "DiscountAmount": "10.00",
+                            "DiscountCode": "AR"
+                        }
+                    },
+                    "Taxes": {
+                        "Tax": [
+                            {
+                                "TaxAmount": "0.00",
+                                "TaxCode": "REG"
+                            },
+                            {
+                                "TaxAmount": "0.00",
+                                "TaxCode": "ZERO"
+                            }
+                        ]
+                    },
+                    "TotalPrice": "0.00"
+                }
+            },
+            "RegPriEmail": "hao@newland.com",
+            "RoadService": {
+                "AvailableCallCount": 5,
+                "Eligible": "Y",
+                "PermittedCallCount": 5,
+                "UsedCallCount": 0
+            }
+        },
+        "Promo": {
+            "PromoCode": ""
+        },
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xsi:noNamespaceSchemaLocation": "AXISWeb.xsd"
+    }
+}

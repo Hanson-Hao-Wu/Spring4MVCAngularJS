@@ -1,3 +1,105 @@
+html, body{height:100%;}
+
+.wrapper{
+    min-height:100%;
+    margin-bottom:-70px;
+}
+
+footer{
+	background-color: #337ab7;
+	line-height: 50px;
+	width: 100%;
+	color:#fff;
+	height:50px;
+	margin-top: 20px;
+}
+
+.footer_placeholder{
+	height:70px;
+}
+
+.navbar{
+	border-bottom: 1px solid #afafaf;
+}
+
+
+
+.brand-logo img{
+	height: 55px;
+}
+
+@media (max-width: 768px){
+	.brand-logo img{
+		height: 48px;
+		margin-left: 15px;
+	}
+}
+
+.highlight {
+	/* border: 1px solid #e1e1e8; */
+	border-radius: 4px;
+	padding: 20px 15px 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.highlight h3{
+	margin-top: 0;
+}
+
+.home-page-links>.col-sm-6 {
+	margin-bottom: 20px;
+}
+
+.home-page-links>.col-sm-6>a {
+	font-size: 1.3em;
+}
+
+.btn-myaccount {
+	width: 100%;
+}
+.fa-asterisk{
+	color: red;
+	font-size: 0.5em;
+}
+.nl-submit .btn {
+	margin: 15px;
+	padding: 6px 30px
+}
+
+@media ( max-width : 768px) {
+	/* submit button */
+	.nl-submit .btn:FIRST-CHILD {
+		float: left;
+	}
+	.nl-submit .btn:LAST-CHILD {
+		float: right;
+	}
+}
+
+form .alert{
+	padding: 6px 12px;
+}
+
+/* form{
+	padding: 15px;
+}
+.ng-pristine{
+	border: 1px solid black;
+}
+.ng-dirty{
+	border: 1px solid yellow;
+}
+.ng-invalid.ng-dirty{
+	border: 1px solid red;
+}
+.ng-valid.ng-dirty{
+	border: 1px solid green;
+}
+input.ng-invalid-minlength.ng-dirty{
+	border: 1px solid blue;
+} */
+
 .username.ng-valid {
 	background-color: lightgreen;
 }

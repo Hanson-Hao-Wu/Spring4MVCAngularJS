@@ -1,6 +1,18 @@
 'use strict';
  
-angular.module('myApp').controller('UserController', ['$scope', 'UserService', function($scope, UserService) {
+angular.module('userExample',['ngRoute'])
+
+.config(['$routeProvider', function($routeProvider) {
+	$routeProvider.when('/userExample', {
+    	templateUrl: "static/userExample/userExample.jsp",
+		controller: 'UserController'
+	});
+}])
+
+.controller('UserController', ['$scope', 'UserService', function($scope, UserService) {
+	
+	$scope.$parent.pageTitle = "User Example";
+	
     var self = this;
     self.user={id:null,username:'',address:'',email:''};
     self.users=[];

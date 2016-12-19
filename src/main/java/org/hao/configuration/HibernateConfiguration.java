@@ -16,12 +16,12 @@ import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/*@Configuration
+@Configuration
 @EnableTransactionManagement
 @ComponentScan({ "org.hao.configuration" })
-@PropertySource(value = { "classpath:application.properties" })*/
+@PropertySource(value = { "classpath:application.properties" })
 public class HibernateConfiguration {
-	/*@Autowired
+	@Autowired
     private Environment environment;
  
     @Bean
@@ -58,5 +58,5 @@ public class HibernateConfiguration {
        HibernateTransactionManager txManager = new HibernateTransactionManager();
        txManager.setSessionFactory(s);
        return txManager;
-    }*/
+    }
 }

@@ -5,20 +5,20 @@ import java.util.List;
 import org.hao.model.User;
 
 public interface UserService {
-
-	User findById(long id);
+	
+	void addUser(User user);
+	
+	void deleteUserById(int id);
     
-    User findByName(String name);
-     
-    void saveUser(User user);
-     
     void updateUser(User user);
-     
-    void deleteUserById(long id);
- 
-    List<User> findAllUsers(); 
+    
+    List<User> getAllUsers(); 
+
+	User findUserById(int id);
+    
+    User findUserByUsername(String username);
      
     void deleteAllUsers();
      
-    public boolean isUserExist(User user);
+    public boolean isUsernameExist(User user);
 }

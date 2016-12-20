@@ -17,28 +17,27 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
+@RequestMapping(value="/api")
 public class UserRestController {
 	
 	@Autowired
     UserService userService;  //Service which will do all data retrieval/manipulation work
 
-	 //-------------------Retrieve All Users--------------------------------------------------------
-    
+	//-------------------Get All Users--------------------------------------------------------
     @RequestMapping(value = "/user/", method = RequestMethod.GET)
-    public ResponseEntity<List<User>> listAllUsers() {
-        List<User> users = userService.findAllUsers();
+    public ResponseEntity<List<User>> getAllUsers() {
+        List<User> users = userService.getAllUsers();
         if(users.isEmpty()){
             return new ResponseEntity<List<User>>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
         }
         return new ResponseEntity<List<User>>(users, HttpStatus.OK);
     }
     
-  //-------------------Retrieve Single User--------------------------------------------------------
-    
+	//-------------------Get Single User By ID--------------------------------------------------------
     @RequestMapping(value = "/user/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<User> getUser(@PathVariable("id") long id) {
+    public ResponseEntity<User> getUser(@PathVariable("id") int id) {
         System.out.println("Fetching User with id " + id);
-        User user = userService.findById(id);
+        User user = userService.findUserById(id);
         if (user == null) {
             System.out.println("User with id " + id + " not found");
             return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
@@ -46,35 +45,30 @@ public class UserRestController {
         return new ResponseEntity<User>(user, HttpStatus.OK);
     }
   
-      
-      
     //-------------------Create a User--------------------------------------------------------
-      
     @RequestMapping(value = "/user/", method = RequestMethod.POST)
-    public ResponseEntity<Void> createUser(@RequestBody User user,    UriComponentsBuilder ucBuilder) {
+    public ResponseEntity<Void> createUser(@RequestBody User user, UriComponentsBuilder ucBuilder) {
+    	
         System.out.println("Creating User " + user.getUsername());
   
-        if (userService.isUserExist(user)) {
-            System.out.println("A User with name " + user.getUsername() + " already exist");
+        if (userService.isUsernameExist(user)) {
+        	System.out.println("A User with name " + user.getUsername() + " already exist");
             return new ResponseEntity<Void>(HttpStatus.CONFLICT);
         }
-  
-        userService.saveUser(user);
+
+        userService.addUser(user);
   
         HttpHeaders headers = new HttpHeaders();
         headers.setLocation(ucBuilder.path("/user/{id}").buildAndExpand(user.getId()).toUri());
         return new ResponseEntity<Void>(headers, HttpStatus.CREATED);
     }
-  
-     
-      
+
     //------------------- Update a User --------------------------------------------------------
-      
     @RequestMapping(value = "/user/{id}", method = RequestMethod.PUT)
-    public ResponseEntity<User> updateUser(@PathVariable("id") long id, @RequestBody User user) {
+    public ResponseEntity<User> updateUser(@PathVariable("id") int id, @RequestBody User user) {
         System.out.println("Updating User " + id);
           
-        User currentUser = userService.findById(id);
+        User currentUser = userService.findUserById(id);
           
         if (currentUser==null) {
             System.out.println("User with id " + id + " not found");
@@ -82,8 +76,6 @@ public class UserRestController {
         }
   
         currentUser.setUsername(user.getUsername());
-        currentUser.setAddress(user.getAddress());
-        currentUser.setEmail(user.getEmail());
           
         userService.updateUser(currentUser);
         return new ResponseEntity<User>(currentUser, HttpStatus.OK);
@@ -92,12 +84,11 @@ public class UserRestController {
      
      
     //------------------- Delete a User --------------------------------------------------------
-      
     @RequestMapping(value = "/user/{id}", method = RequestMethod.DELETE)
-    public ResponseEntity<User> deleteUser(@PathVariable("id") long id) {
+    public ResponseEntity<User> deleteUser(@PathVariable("id") int id) {
         System.out.println("Fetching & Deleting User with id " + id);
   
-        User user = userService.findById(id);
+        User user = userService.findUserById(id);
         if (user == null) {
             System.out.println("Unable to delete. User with id " + id + " not found");
             return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
@@ -110,7 +101,6 @@ public class UserRestController {
       
      
     //------------------- Delete All Users --------------------------------------------------------
-      
     @RequestMapping(value = "/user/", method = RequestMethod.DELETE)
     public ResponseEntity<User> deleteAllUsers() {
         System.out.println("Deleting All Users");
